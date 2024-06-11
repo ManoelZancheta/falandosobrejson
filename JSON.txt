@@ -1,0 +1,81 @@
+1) Objeto JSON
+{
+   "nome": "Maria",
+   "cargo": "Programadora",
+   "idade": 30,
+   "salario": 6000.50,
+   "ferias": true,
+   "passaporte": null
+}
+
+2) Entendendo sua estrutura
+{} -> define um objeto
+[] -> define um array
+: separador chaves x valor
+, separador conjunto de chaves/valores
+
+
+3) Array de Objetos JSON
+[
+   {"nome": "Maria", "cargo": "Programadora", "idade": 30, "salario": 6000.50, "ferias": true,"passaporte": null},
+   {"nome": "Joana", "cargo": "Programador", "idade": 25, "salario": 5000, "ferias": false, "passaporte": null},
+   {"nome": "Carlos", "cargo": "Tester", "idade": 20, "salario": 4500.10, "ferias": true, "passaporte": null}
+]
+
+4) Objeto JSON com chave contendo Array Objetos JSON
+{
+   "nome": "Maria",
+   "cargo": "Programadora",
+   "idade": 30,
+   "salario": 6000.50,
+   "ferias": true,
+   "passaporte": null,
+   "dependentes": [
+                     {"parentesco": "pai", "nome": "Jose"},
+                     {"parentesco": "mae", "nome": "Ana"}
+                 
+                  ]              
+}
+
+5) Array de Objetos JSON que contem Arrays de objetos JSON em dua chave
+[
+   {
+      "nome": "Maria",
+      "cargo": "Programadora",
+      "idade": 30,
+      "salario": 6000.50,
+      "ferias": true,
+      "passaporte": null,
+      "dependentes": [
+                        {"parentesco": "pai", "nome": "Jose"},
+                        {"parentesco": "mae", "nome": "Ana"}
+                 
+                     ]              
+   },
+   {
+      "nome": "Joana", 
+      "cargo": "Programadora", 
+      "idade": 25, 
+      "salario": 5000, 
+      "ferias": false, 
+      "passaporte": null,
+      "dependentes": [
+                        {"parentesco": "filho", "nome": "Pedro"},
+                        {"parentesco": "neto", "nome": "Benedito"}            
+                     ]              
+   },
+   {
+      "nome": "Carlos", 
+      "cargo": "Tester", 
+      "idade": 20, 
+      "salario": 4500.10, 
+      "ferias": true, 
+      "endereco": {"rua":"Av.Dr. Jambeiro Costa", "numero": 55},
+      "passaporte": null,
+      "dependentes": [
+                        {"parentesco": "sobrinho", "nome": "Pedro"},
+                        {"parentesco": "neto", "nome": "Benedito"}            
+
+                     ]
+   }
+]

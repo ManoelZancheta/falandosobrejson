@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/04/18 08:37:14.000.020,=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/05/10 10:58:51.000.648,=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/07 12:10:16.000.973,=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/12/28 12:00:52.000.773,=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/01/25 16:09:10.000.485,=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/01/25 19:11:57.000.278,C:\json\json.dfm=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/01/25 19:11:57.000.278,C:\json\json.pas=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/01/26 13:01:48.000.779,C:\Users\manoe\Documents\Embarcadero\Studio\Projects\FalandoSobreJON.dproj=C:\Users\manoe\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/01/26 13:02:19.000.845,C:\Users\manoe\Documents\Embarcadero\Studio\Projects\FalandoSobreJON.dproj=C:\json\FalandoSobreJSON.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
